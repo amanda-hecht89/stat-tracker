@@ -62,7 +62,6 @@ save.addEventListener('click', () => {
     // Loop through the list of stats and add up the total points scored
     for (let player of stats) {
         let pointCount = player.point;
-        totalPoints += pointCount;
     }
     // Create a new object with the game number and the total points
     // { number: games.length + 1, totalPoints: totalPoints }
